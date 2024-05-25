@@ -1,0 +1,511 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+html{
+    scroll-behavior:smooth ;
+    border: 0;
+}
+body{
+    margin: 0%;
+    font-size: 1.5rem;
+    font-family: "Roboto",sans-serif;
+}
+#home{
+    border: 0%;
+    background: url(/images/MBS);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+menu{
+    border: 0%;
+    margin: 0%;
+    margin-left: 5%;
+    position: fixed;
+
+}
+.heading h1{
+    color: #003060;
+}
+.heading-menu{
+    background-color: #E5191B;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 1%;
+    max-height: 4rem;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+
+}
+.info{
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+}
+.info ul{
+    display: inline-block;
+    width: 100%;
+    margin: 0%;
+    align-content: center;
+    width: 100%;
+}
+.info ul li:a{
+    text-decoration: none;
+}
+
+.info li{
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2%;
+    display: inline-flex;
+    font-family: "Bubblegum Sans";
+    margin: 1% 5% 5% 5%;
+    cursor: pointer;
+}
+.info>li:hover{
+    color: white;
+    border-top: white solid 2px;
+}
+.intro{
+    margin-top: 0%;
+    padding-top: 0;
+    padding-left: 1%;
+}
+.block{
+    width: 180px;
+    height: 180px;
+    padding: 1rem;
+    margin-right: 1%;
+}
+.left{
+    float: left;
+}
+.name{
+    color: white;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.motto{
+    font-size: 1.8rem;
+    color: #f0d437;
+    margin: 0%;
+    padding-top: 0;
+    margin-left: 3px;
+    text-align : center;
+}
+.heading{
+    align-items: center;
+    padding: 0 2% 0% 0 ;
+}
+.MBS{
+    padding: 1rem;
+    margin: 0%;
+    overflow: auto;
+    background-color: white;
+}
+.MBS h2{
+    font-family: "teko";
+    text-decoration: underline;
+
+}
+#MBS{
+    font-family: "montserrat",'Times New Roman', Times, serif ;
+    color: blue;
+}
+.right{
+    float: right;
+}
+.block-right{
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: 1%;
+    padding: 0%;
+    padding-right: 1%;
+    border-radius: 5px;
+}
+.CBC{
+    display:block;
+    background-color: #003060;
+    margin: 2%;
+    padding: 1% ;
+    border-radius: 5px;
+    max-width: 100%;
+    align-items: center;
+    color: white;
+}
+.CBC2{
+    display: inline-flex  ;
+    columns: 2;
+    column-gap: 10px;
+}
+li{
+    list-style-type: circle;
+}
+.junior{
+    margin: 0%;
+    padding-left: 5%
+
+}
+.lower{
+    padding-left: 5%;
+    margin: 0%;
+    margin-right: 0%;
+}
+.upper{
+    margin: 1%;
+    padding: 0%;
+    padding-left: 5%
+
+}
+.jss{
+    margin: 1%;
+    padding-left: 5%
+}
+.wee{
+    display: inline-flex;
+}
+#school{
+    color: white;
+    max-width: 100%;
+    font-family: 'Montserrat','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.images-frame {
+    position: relative;
+    overflow: hidden;
+    width: 450px;
+    margin: 1%;
+}
+.images-frame .caption{
+    float: left;
+}
+
+.images-frame img {
+    display: block;
+    width: 100%; /* Make sure the image takes the full width of the frame */
+    max-height: auto; 
+/*     transition: transform 0.5s ease;
+ */}
+/* .images-frame .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    padding-right: 2px;
+}
+
+.images-frame:hover img {
+    transform: scale(1.1);
+}
+
+.images-frame:hover .caption {
+    opacity: 1;
+} */
+.caption ul{
+    list-style-type: circle;
+}
+#about{
+    background-color: white;
+}
+.about-us{
+    max-width: 100%;
+    padding: 1rem;
+    margin: 0%;
+    overflow: auto;
+    background-color: white;
+}
+.about-us h2{
+    font-family: "teko",Georgia, Times, 'Times New Roman', serif;
+}
+
+.co-values{
+    display: inline-block;
+}
+.co-values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-frame {
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Adjust the width as needed */
+}
+
+.image-frame img {
+    display: block;
+    width: 100%; /* Make sure the image takes the full width of the frame */
+    max-height: auto; 
+    transition: transform 0.5s ease;
+}
+.image-frame .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    padding-right: 2px;
+}
+
+.image-frame:hover img {
+    transform: scale(1.1);
+}
+
+.image-frame:hover .caption {
+    opacity: 1;
+}
+.caption h3{
+    text-decoration: underline;
+    border: 0;
+}
+.caption p{
+    padding-top: 0%;
+    font-family: "kaushan script";
+
+}
+#one{
+    font-family:"kaushan script", Georgia, 'Times New Roman', Times, serif;
+    color: #E5191B;
+    background-color: white;
+    padding: 1%;
+    border: #003060 2px solid;
+    border-radius: 7px;
+}
+.site-visit{
+    max-width: 100%;
+    padding: 1rem;
+    margin: 1%;
+    background-color: #003060;
+
+}
+.site-visit h2{
+    font-family: "teko",Georgia, Times, 'Times New Roman', serif;   
+    color: white;
+}
+.site-visit p{
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 0;
+    margin: 0%;
+    color: white;
+}
+q{
+    font-family: 'Courier New', Courier, monospace ;
+    font-style: italic;
+    font-size: 23px;
+    color: white;
+}
+.site-visit img{
+    float:left;
+    max-height: 500px;
+    max-width: 500px;padding: 1%;
+}
+#wone{
+    overflow: auto;
+    overflow:hidden;
+}
+
+#two{
+    background-color: white;
+    max-width: 100%;
+    border: 0%;
+    padding: 0%;
+     overflow:auto; 
+    padding-bottom: 1%;
+}
+#two img{
+    float: right;
+}
+#two p{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin: 0%;
+}
+#three p{
+    text-align: center;
+}
+#img{
+    float: right;
+    /*max-width: 200px;
+    max-height: 200px; */
+    padding: 2%;
+    border-radius: 2px;
+}
+.co-cirricular{
+    background-color: #f0d437;
+    width: 100%;
+}
+.co-cirricular p{
+    width: 100%;
+}
+#four {
+    display: inline-flex;
+    width: 100%;
+
+}
+.image-framer {
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    overflow: hidden;
+    max-width: 410px;
+    height: fit-content;     
+/*     background-color: #003060;
+ */
+}
+.image-frame img{
+    margin: 0%;
+}
+.caption2{
+}
+.image-framer img {
+    display: block;
+    width: 100%;
+    max-height: auto; 
+}
+.image-framer .caption2 {
+    bottom: 0;
+    left: 0;
+    right: 0;
+/*    background: rgba(0, 0, 0, 0.7);
+     color: black;
+ */    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    padding-right: 2px;
+}
+
+/* .image-framer:hover img {
+    transform: scale(1.1);
+}
+
+.image-framer:hover .caption2 {
+    opacity: 1;
+} */
+.caption2 h3{
+    text-decoration: underline;
+    border: 0;
+    color: black;
+}
+.caption2 p{
+    padding-top: 0%;
+    font-family: "kaushan script";
+    color: black;
+}
+/* .vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+} */
+.contacts{
+    background-color: #003060;
+    border-radius: 0px;
+    font-family: "teko";
+    text-align: center;
+    display: inline-flex;
+    width: 96%;
+    padding: 2%;
+}
+.contacts h1 {
+    margin-left: 2%;
+    text-decoration: underline white;
+    color: white;
+}
+.information{
+    background-color: #003060;
+}
+.conts {
+    text-align: center;
+    font-size: 1rem;
+    background-color: #003060;
+    border-radius: 5px;
+    color: white;
+    padding: 1%;
+    border: #ddbf14;
+    font-family: sans-serif;
+}
+.Phone p{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.icons{
+    display: inline-block;
+}
+#num{
+    color: white;
+    font-size: 2rem;
+}
+#emails{
+    font-size: 2rem;
+}
+#add{
+    font-size: 2rem;
+}
+
+.wptwa-toggle {
+    background-color: rgb(6, 161, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    white-space: nowrap;
+    line-height: 100%;
+    padding: 12px 20px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16);
+}
+.wptwa-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.maps{
+    background-color: #003060;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    white-space: nowrap;
+    line-height: 100%;
+    padding: 12px 20px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16);
+}
+.map{
+    color: white;
+    background: #003060;
+    max-width: 100%;
+    padding: 5%;
+}
