@@ -644,7 +644,6 @@ q{
 }
 .image-framess h2{
     color: white;
-    text-decoration: underline;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(83,83,110,1) 50%, rgba(61,72,74,1) 100%);
     padding-top: 1%;
